@@ -1,0 +1,10 @@
+[Unit]
+Description=Запуск main.py при загрузке
+
+[Service]
+ExecStart=/usr/bin/python3 /home/bogdan/projects_2025/telegrammteach/main1.py
+Restart=allways
+User=bogdan
+
+[Install]
+WantedBy=multi-user.target
