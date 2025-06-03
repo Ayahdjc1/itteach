@@ -8,7 +8,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import ollama
 
 # --- НАСТРОЙКИ ---
-TOKEN = '7833956504:AAHCLP5vnewZX3icxE7aZ50vSkMdkKzdFcw'
+TOKEN = ''
 MODEL_NAME = 'llama3'
 TEMPERATURE = 0.6
 
